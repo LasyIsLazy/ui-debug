@@ -1,0 +1,27 @@
+body {
+  width: 300px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#clear {
+  display: flex;
+}
+
+#control {
+  margin-top: 5px;
+}
+#control .row {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#control label:not(:first-child) {
+  margin-left: 10px;
+}
+#control input {
+  width: 45px;
+  margin-left: 5px;
+}
